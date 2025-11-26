@@ -8,10 +8,11 @@ Flux_Iller_W_calc_KW_Ingeling.dat		KW_Ingeling
 Flux_Salsach_Q_calc_Salsach.ref			Salsach
 Q_prog_Laufen_Siegestetten_Kellen.ref		Laufen_Siegestetten_Kellen
 
-Regex: ^(?:\w+)(?:calc\_|prog\_)(\w+)(?:\.\w{3})$
+Regex: (?<=calc\_|prog_)(\w+)(?=\.\w{3})
 
 Erklärung: Alles nach den Zeichengruppen "calc_" und "prog_" und vor der Dateiextension wird ausgegeben.
 Weitere Musterwörter können einfach von jedem ergänzt werden. 
 Auch könnte die Prüfung erweitert werden, dass z.B. auch "CALC_" oder "CaLc_" berücksichtigt wird.
+
 
  

@@ -1,3 +1,3 @@
 # stuff
 code I wrote 
-This accumulation of differnt code snippets and small programms is for gathering anything I don't have another home for.
+This is a accumulation of different code snippets and small programms, which I don't have another home for at the moment.
